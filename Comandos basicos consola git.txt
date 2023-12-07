@@ -1,0 +1,24 @@
+Configuración GIT por primera vez:
+git --version.
+git config --global user.name "Leonel Lima".
+git config --global user.email leonel.limae@hotmail.com.
+git config --global user.ui true.
+git config --lis: Lista de configuración de git.
+#Asignación de visual estudio como editor de configuración de git.
+git config --global core.editor "code --wait"
+git config --global -e: configuracion directamente en visual estudio.
+#Estandarizar los saltos de linea en windows.
+git config --global core.autocrlf true.
+#Estandarizar los saltos de linea en linux/mac.
+git config --global core.autocrlf input.
+#Ver todas las opciones de la configuracion en la terminal.
+git config -h.
+#Ver todas las opciones de la configuracion en el navegador.
+git help config.
+#Inicializar Git en directorio local.
+mkdir Nombre de carpeta.
+cd carpeta creada.
+touch README.md.
+touch .gitignore: carpeta que se ignora al subir a remoto.
+git init: inicializar un repositorio en git por primera vez.
+code .: Abrir la carpeta creada con los ajustes desde visual estudio code.
