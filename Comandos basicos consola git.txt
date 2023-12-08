@@ -137,3 +137,24 @@ git checkout rama-principal
 # ejecutamos el comando merge con la rama secundaria a fusionar
 git merge rama-secundaria
 #Esto hace las uniones con repositorio local, se debe hacer un git push -u origin main para hacer el merge en el repositorio remoto.
+
+Cambios
+Puedes agregar modificaciones al último cambio
+# sin editar el mensaje del último commit
+git add . y despúes: git commit --amend --no-edit
+
+# editando el mensaje del último commit
+git add . y despúes git commit --amend -m "nuevo mensaje para el último commit" (Esto cúando aún no se haya subido a repositorio remoto, si ya se subio entonces se hace
+git pull, git add . y git commit -m con nuevo commit.)
+
+# eliminar el último commit
+git reset --hard HEAD~1 (Siempre y cuando no se haya aplicado un push, el 1 indica el número de commits a borrar.)
+
+Podemos desplazarnos en el historial del repositorio hacia atrás o adelante en cambios o ramas , sin afectar el repositorio como tal.
+# cambiar a una rama
+git checkout nombre-rama
+
+# cambiar a un commit en particular
+git checkout id-commit
+
+#Ver historial de commits: git log ó git log --oneline
