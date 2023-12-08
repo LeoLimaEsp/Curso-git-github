@@ -19,6 +19,67 @@ git help config.
 mkdir Nombre de carpeta.
 cd carpeta creada.
 touch README.md.
-touch .gitignore: carpeta que se ignora al subir a remoto.
+touch .gitignore: Carpeta que se ignora al subir a remoto.
 git init: inicializar un repositorio en git por primera vez.
 code .: Abrir la carpeta creada con los ajustes desde visual estudio code.
+# agregar los cambios de un archivo al staged.
+git add :Archivo/directorio uno por uno.
+git add .: Agregar todos los cambios de todos los archivos al staged.
+# los cambios son comprometidos en el repositorio.
+# debes escribir el mensaje del cambio.
+# cuando se abra el archivo de configuración.
+# al terminar guarda y cierra el archivo cuando se hace a traves de VSC con git commit.
+# escribes y confirmas el mensaje del cambio en un sólo paso.
+git commit -m "mensaje descriptivo del cambio": Para que los cambios tengan efecto, se añade mensaje siempre por consola.
+# se agrega el origen remoto de tu repositorio de GitHub.
+git branch -M main
+git remote add origin https://github.com/usuario/repositorio.git.
+# la primera vez que vinculamos el repositorio remoto con el local.
+git push -u origin master.
+# para las subsecuentes actualizaciones, sino cambias de rama.
+git push sin la -U.
+#Al inicio de trabajar es iniciar con un pull
+git pull: Para descargar los cambios del repositorio remoto al local.
+
+#Para reemplazar la rama master por main en GitHub:
+# Paso 1
+# Crea la rama local main y pásale el historial de la rama master
+git branch -m master main: Cambio de nombre 
+# Paso 2
+# Haz un push de la nueva rama local main en el repositorio remoto de GitHub
+git push -u origin main
+
+# Paso 3
+# Cambia el HEAD actual a la rama main
+git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+
+# Paso 4
+# Cambia la rama default de master a main en tu repositorio de GitHub .
+Settings --> En "Rama predeterminada", a la derecha del nombre de la rama predeterminada, haga clic en las flechas y ajsute la rama default.
+
+# Paso 5
+# Elimina la rama master del repositorio remoto
+git push origin --delete master
+
+#Para reemplazar la rama master por main en Git.
+git config --global init.defaultBranch main
+
+#Ayuda de comandos Git.
+# ayuda en la terminal:
+git (comando a buscar) -h
+# ayuda en el navegador:
+git help (comando a buscar).
+
+#Ignorar archivos
+# esto es un comentario
+
+# ignorar todos los archivos que terminen en .log
+*.log: dirigirse a carpeta gitignore y escribit *.(formato a ignorar).
+# excepto ejemplo production.log
+!production.log
+# ignorar los archivos terminados en .txt dentro de la carpeta doc,
+# pero no en sus subcarpetas ejemplo:
+doc/*.txt
+# ignorar todos los archivos terminados en .txt dentro de la carpeta doc
+# y también en sus subcarpetas ejemplo:
+doc/**/*.txt
