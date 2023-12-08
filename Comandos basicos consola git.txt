@@ -150,7 +150,7 @@ git pull, git add . y git commit -m con nuevo commit.)
 # eliminar el último commit
 git reset --hard HEAD~1 (Siempre y cuando no se haya aplicado un push, el 1 indica el número de commits a borrar.)
 
-Podemos desplazarnos en el historial del repositorio hacia atrás o adelante en cambios o ramas , sin afectar el repositorio como tal.
+Podemos desplazarnos en el historial del repositorio hacia atrás o adelante en cambios o ramas , sin afectar el repositorio como tal, solo ver como estaba antes.
 # cambiar a una rama
 git checkout nombre-rama
 
@@ -158,3 +158,37 @@ git checkout nombre-rama
 git checkout id-commit
 
 #Ver historial de commits: git log ó git log --oneline
+
+Registro del historial
+git log nos permite conocer todo el historial de un proyecto, con la información de la fecha, el autor y id de cada cambio.
+
+# muestra en una sola línea por cambio
+git log --oneline
+
+# guarda el log en la ruta y archivo que especifiquemos
+git log > commits.txt
+
+# muestra el historial con el formato que indicamos
+git log --pretty=format:"%h - %an, %ar : %s" (Id, autor, fecha, nombre del commit)
+
+# cambiamos la n por cualquier número entero y mostrará los n cambios recientes
+git log -n
+
+# muestra los cambios realizados después de la fecha especificada
+git log --after="2019-07-07 00:00:00"
+
+# muestra los cambios realizados antes de la fecha especificada
+git log --before="2019-07-08 00:00:00"
+
+# muestra los cambios realizados en el rango de fecha especificado
+git log --after="2019-07-07 00:00:00" --before="2019-07-08 00:00:00"
+
+# muestra una gráfica del historial de cambios, rama y fusiones
+git log --oneline --graph --all
+
+# muestra todo el registro de acciones del log
+# incluyendo inserciones, cambios, eliminaciones, fusiones, etc.
+git reflog
+
+# diferencias entre el Working Directory y el Staging Area
+git diff

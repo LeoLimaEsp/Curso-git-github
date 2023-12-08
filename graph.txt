@@ -1,0 +1,25 @@
+* e1eb4ec Actualización en cambios basicos de consola.
+* ffc3c73 Agregando parrafo
+*   999289b Resolviendo conflicto en estaciones del año y fechas de inicio
+|\  
+| * 02fbec4 Agregando las estaciones del año
+* | 8a81835 Agregando estaciones del año con fecha de inicio.
+|/  
+*   2934bf7 Resolviendo conflicto merge main/html en el documento index.html
+|\  
+| * e68a21e Agregando index.js al index.html
+* | 73cd04e Agregando style.css al index.html
+* |   12f6167 Merge branch 'js'
+|\ \  
+| * | 115a669 Creando index.js
+* | | 525e9be Creando style.css
+| |/  
+|/|   
+* | e84ea47 Creando index.html
+|/  
+* 588dd81 Actualizacion de comandos basicos - apuntes
+* 9f5d3e2 Ignorando archivos .exe
+* 01984e7 Create LICENSE del repositorio.
+* 8755581 Agregando informacion a README
+* 815df6e Agregando contenido inicial al README
+* 1188a9d Primer commit ✔

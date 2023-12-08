@@ -1,0 +1,110 @@
+commit e1eb4ecabeb5c6602aebcdbb2a847ee6573baee4
+Author: Leonel Lima <leonel.limae@hotmail.com>
+Date:   Fri Dec 8 10:28:59 2023 -0600
+
+    Actualización en cambios basicos de consola.
+
+commit ffc3c73f9e8e81bfe9ace645f44414ee04a653e3
+Author: Leonel Lima <leonel.limae@hotmail.com>
+Date:   Fri Dec 8 10:12:38 2023 -0600
+
+    Agregando parrafo
+
+commit 999289bf7101dd2038b7752eb594432b68518fdd
+Merge: 8a81835 02fbec4
+Author: Leonel Lima <leonel.limae@hotmail.com>
+Date:   Fri Dec 8 10:04:59 2023 -0600
+
+    Resolviendo conflicto en estaciones del año y fechas de inicio
+
+commit 8a8183588c5e9e28bb2d9f919b60932452c9c5fe
+Author: Leonel Lima <leonel.limae@hotmail.com>
+Date:   Fri Dec 8 09:38:20 2023 -0600
+
+    Agregando estaciones del año con fecha de inicio.
+
+commit 02fbec435a4b59c1fe29186bf3825de463c7a814
+Author: Leonel Lima <leonel.limae@hotmail.com>
+Date:   Fri Dec 8 09:38:20 2023 -0600
+
+    Agregando las estaciones del año
+
+commit 2934bf763f17a7efc9a45d0a9929bcbd7db7c3fd
+Merge: 73cd04e e68a21e
+Author: Leonel Lima <leonel.limae@hotmail.com>
+Date:   Fri Dec 8 08:41:51 2023 -0600
+
+    Resolviendo conflicto merge main/html en el documento index.html
+
+commit e68a21eef8063232b4aaf1b5ba2c147fbc14dd97
+Author: Leonel Lima <leonel.limae@hotmail.com>
+Date:   Fri Dec 8 08:27:11 2023 -0600
+
+    Agregando index.js al index.html
+
+commit 73cd04e7eec5e64367e802a926fa635f4c665248
+Author: Leonel Lima <leonel.limae@hotmail.com>
+Date:   Fri Dec 8 08:23:02 2023 -0600
+
+    Agregando style.css al index.html
+
+commit 12f616740e37dca73f0bbf5abb8f5236d1448d5c
+Merge: 525e9be 115a669
+Author: Leonel Lima <leonel.limae@hotmail.com>
+Date:   Fri Dec 8 08:08:23 2023 -0600
+
+    Merge branch 'js'
+
+commit 115a66982f938d2c495aa4931fdc28d865b39252
+Author: Leonel Lima <leonel.limae@hotmail.com>
+Date:   Fri Dec 8 08:01:03 2023 -0600
+
+    Creando index.js
+
+commit 525e9be896ca0d04f53db234167d106e453845b8
+Author: Leonel Lima <leonel.limae@hotmail.com>
+Date:   Fri Dec 8 07:51:38 2023 -0600
+
+    Creando style.css
+
+commit e84ea47103f46d468e703948d3d8eb035ee097e4
+Author: Leonel Lima <leonel.limae@hotmail.com>
+Date:   Fri Dec 8 07:37:29 2023 -0600
+
+    Creando index.html
+
+commit 588dd819e5787b953a78861a17aae2305144651a
+Author: Leonel Lima <leonel.limae@hotmail.com>
+Date:   Fri Dec 8 07:08:08 2023 -0600
+
+    Actualizacion de comandos basicos - apuntes
+
+commit 9f5d3e275dd4c1edd09ad58ce0831cd4c5d170db
+Author: Leonel Lima <leonel.limae@hotmail.com>
+Date:   Fri Dec 8 07:05:58 2023 -0600
+
+    Ignorando archivos .exe
+
+commit 01984e7fd26a60dc52ea4611ddf78bc91af0367b
+Author: Leonel <99207528+LeoLimaEsp@users.noreply.github.com>
+Date:   Thu Dec 7 14:31:44 2023 -0600
+
+    Create LICENSE del repositorio.
+
+commit 8755581d96a5c6bf0b66c413ac47748e9a37e4ad
+Author: Leonel Lima <leonel.limae@hotmail.com>
+Date:   Thu Dec 7 13:57:15 2023 -0600
+
+    Agregando informacion a README
+
+commit 815df6e0f1efc01661290383991768bbd1041296
+Author: Leonel Lima <leonel.limae@hotmail.com>
+Date:   Thu Dec 7 13:32:48 2023 -0600
+
+    Agregando contenido inicial al README
+
+commit 1188a9d070470472e3061b5dcab5e341af6e8231
+Author: Leonel Lima <leonel.limae@hotmail.com>
+Date:   Thu Dec 7 13:26:37 2023 -0600
+
+    Primer commit ✔
