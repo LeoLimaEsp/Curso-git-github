@@ -318,6 +318,7 @@ git push fork rama-nueva
 # aceptar el pull request
 git checkout main
 git pull origin main
+
 git push fork main
 git branch -d rama-nueva
 git push fork --delete rama-nueva
