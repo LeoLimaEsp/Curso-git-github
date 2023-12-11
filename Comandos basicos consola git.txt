@@ -254,3 +254,41 @@ git push -u (nombre del remoto)  (nombre rama del remoto a subir)
 git checkout --track -b rama-remota origin/rama-remota
 
 #Etiquetas
+Con esta opción git nos permite versionar nuestro código, librería o proyecto.
+# listar etiquetas
+git tag
+
+# crea una etiqueta
+git tag numero-versión
+
+# eliminar una etiqueta
+git tag -d numero-versión
+
+# mostrar información de una etiqueta
+git show numero-versión
+
+# sincronizando la etiqueta del repositorio local al remoto
+git add .
+git  tag v1.0.0
+git commit -m "v1.0.0"
+git push origin numero-versión
+
+# generando una etiqueta anotada (con mensaje de commit)
+git add .
+git tag -a "v1.0.0" -m "Mensaje de la etiqueta"
+git push --tags
+
+GitHub Pages
+gh-pages es una rama especial para crear un sitio web a tu proyecto alojado directamente en tu repositorio de GitHub.
+
+URL del repositorio: https://github.com/usuario/repositorio
+URL del sitio: https://usuario.github.io/repositorio
+Para crear esta rama especial en GitHub ejecutamos los siguientes comandos:
+git branch gh-pages
+git checkout gh-pages
+
+git remote add origin https://github.com/usuario/repositorio.git
+git push origin gh-pages
+
+# para descargar los cambios del repositorio remoto al local
+git pull origin gh-pages
