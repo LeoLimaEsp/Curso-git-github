@@ -1,6 +1,6 @@
 # Curso de  _Git_ & _GitHub_
 
-Hola, este es un curso completo de git & github. 😀
+Hola, este es un curso completo de git & github. 
 
 Agregando mas contenido al _README.md_
 
